@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExamListImplements.Models
+namespace ExamFileImplement.Models
 {
-    public class Product
+    public class Component
     {
         public int Id { get; set; }
-        public string ProductName { get; set; }
+        public string ComponentName { get; set; }
+        public decimal Price { get; set; }
         public string Type { get; set; }
-        public Dictionary<int, int> ProductComponents { get; set; }
+        public DateTime TimeComp { get; set; }
     }
 }

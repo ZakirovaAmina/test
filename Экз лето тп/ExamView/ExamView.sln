@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamView", "ExamView.csproj", "{E5CB85FA-99D0-413A-8D78-C81F298AC2EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamView", "ExamView.csproj", "{E5CB85FA-99D0-413A-8D78-C81F298AC2EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamBusinessLogic", "..\ExamBusinessLogic\ExamBusinessLogic.csproj", "{7F0EE2DC-E81B-44E5-A7C6-8668D4527110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamBusinessLogic", "..\ExamBusinessLogic\ExamBusinessLogic.csproj", "{7F0EE2DC-E81B-44E5-A7C6-8668D4527110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamListImplements", "..\ExamListImplements\ExamListImplements.csproj", "{DCEE9F50-3F60-4AEF-92B3-86A673A1C6B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamListImplements", "..\ExamListImplements\ExamListImplements.csproj", "{DCEE9F50-3F60-4AEF-92B3-86A673A1C6B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamFileImplement", "..\ExamFileImplement\ExamFileImplement.csproj", "{8EFCEE3A-7A1D-44DC-A290-C09224F60C78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamFileImplement", "..\ExamFileImplement\ExamFileImplement.csproj", "{8EFCEE3A-7A1D-44DC-A290-C09224F60C78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamContracts", "..\ExamContracts\ExamContracts.csproj", "{EB1B6B3C-9A13-4E94-B5D4-95A733C0D08E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamContracts", "..\ExamContracts\ExamContracts.csproj", "{EB1B6B3C-9A13-4E94-B5D4-95A733C0D08E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamDatabase", "..\ExamDatabase\ExamDatabase.csproj", "{5F1B0131-92C6-4A55-9DC5-5730A3D3A9B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EB1B6B3C-9A13-4E94-B5D4-95A733C0D08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB1B6B3C-9A13-4E94-B5D4-95A733C0D08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB1B6B3C-9A13-4E94-B5D4-95A733C0D08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1B0131-92C6-4A55-9DC5-5730A3D3A9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1B0131-92C6-4A55-9DC5-5730A3D3A9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1B0131-92C6-4A55-9DC5-5730A3D3A9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1B0131-92C6-4A55-9DC5-5730A3D3A9B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

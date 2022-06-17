@@ -106,7 +106,7 @@ namespace ExamListImplements.Implements
         product)
         {
             product.ProductName = model.product;
-            product.Price = model.Price;
+            product.Type = model.Type;
 
             foreach (var key in product.ProductComponents.Keys.ToList())
             {
@@ -152,7 +152,7 @@ namespace ExamListImplements.Implements
             {
                 Id = product.Id,
                 ProductName = product.ProductName,
-                Price = product.Price,
+                Type = product.Type,
                 ProductComponents = productComponents
             };
         }

@@ -1,21 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.ComponentModel;
 
-namespace ExamContracts.ViewModels
+namespace ExamDatabase.Models
 {
-    public class ComponentViewModel
+   public class Component
     {
         public int Id { get; set; }
-        [DisplayName("Название компонента")]
+        [Required]
         public string ComponentName { get; set; }
+        [Required]
         public decimal Price { get; set; }
-        [DisplayName("Тип")]
+        [Required]
         public string Type { get; set; }
-        [DisplayName("Дата сборки")]
+        [Required]
         public DateTime TimeComp { get; set; }
+        [ForeignKey("ComponentId")]
+        public virtual List<ProductComponent> ProductComponents { get; set; }
+
+        
     }
 }
